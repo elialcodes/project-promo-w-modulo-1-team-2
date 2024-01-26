@@ -5,32 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav>
             <h1>NOMBRE DEL GRUPO</h1>
-            <ul>
-                <li>EQUIPO</li>
-                <li>QUIENES SOMOS</li>
-                <li>CONTACTO</li>
+            <ul class="menu">
+                <li><a href="#equipo-id">EQUIPO</a></li>
+                <li><a href="#quienes-somos-id">QUIENES SOMOS</a></li>
+                <li><a href="#">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <figure>
-                <img src="" alt="Imagen Hero">
-            </figure>
+        <section class="main-section">
+
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             </p><!--revisar si sería mejor opción con span en un futuro-->
         </section>
 
-        <section class="equipo">
+        <section id="equipo-id" class="equipo">
             <h2>EQUIPO</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam officia corporis harum beatae deserunt,
                 ipsa repellat atque fuga odit voluptates dolor exercitationem quaerat maxime quam facilis perspiciatis
@@ -60,7 +66,7 @@
                 </div>
             </div>
         </section>
-        <section class="quienes-somos">
+        <section id="quienes-somos-id" class="quienes-somos">
             <h2>QUIÉNES SOMOS</h2>
             <div class="tarjeta">
                 <figure>

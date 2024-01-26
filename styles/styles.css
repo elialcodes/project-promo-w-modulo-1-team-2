@@ -1,0 +1,60 @@
+:root {
+    --font-white: #ffffff;
+    --font-black: #000000;
+    --aqua: aqua;
+    --font-grey: #54585a;
+    --font-titles: 'Rubik', sans-serif;
+    --font-text: 'Open Sans', sans-serif;
+}
+
+/*
+font-family: --font-titles;
+font-family: --font-text;
+*/
+
+/*=======================*/
+/*=======================*/
+/*=========MAIN==========*/
+/*=======================*/
+/*=======================*/
+
+body {
+    font-family: var(--font-text);
+}
+
+h1{
+    padding: 15px 80px;
+    background-color: rgb(9, 157, 141, 0.95);
+    font-family: var(--font-titles);
+    font-size: 16px;
+    color: var(--font-white);
+    text-align: center;
+}
+
+.menu{
+    padding: 8px 0; 
+    display: flex;
+    background-color: #14d9c4;
+    justify-content: space-around;
+    font-family: var(--font-titles);
+    font-size: 16px;
+    color: var(--font-white);
+}
+
+a{
+    color: var(--font-white);
+}
+
+a:hover {
+    color: #099d8d;
+}
+
+a:active {
+    color: var(--font-white);
+}
+
+.main-section{
+    width: 100vh;
+    background: url("https://placekitten.com/320/421") no-repeat center;
+}
+
