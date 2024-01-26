@@ -1,0 +1,6 @@
+#PROYECTO GRUPO 2:
+
+## WORKING AGREEMENTS:
+
+- ESTILO CLASES: minuscula-guion
+-
