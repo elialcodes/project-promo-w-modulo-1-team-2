@@ -38,7 +38,7 @@ font-family: --font-text;
 
 h1 {
   padding: 15px 80px;
-  background-color: rgb(9, 157, 141, 0.8);
+  background-color: rgb(9, 157, 141, 0.95);
   font-family: var(--font-titles);
   font-size: 16px;
   color: var(--font-white);
