@@ -7,6 +7,10 @@
     --font-text: 'Open Sans', sans-serif;
 }
 
+body {
+    font-family: var(--font-text);
+}
+
 /*
 font-family: --font-titles;
 font-family: --font-text;
@@ -14,27 +18,43 @@ font-family: --font-text;
 
 /*=======================*/
 /*=======================*/
-/*=========MAIN==========*/
+/*=======HEADER==========*/
 /*=======================*/
 /*=======================*/
 
-body {
-    font-family: var(--font-text);
+
+.hero {
+    width: 100%;
+}
+
+.gato {
+    width: 100%;
+}
+
+.nav-menu {
+    width: 100%;
+    position: fixed;
+    z-index: 30;
+   
+
 }
 
 h1{
     padding: 15px 80px;
-    background-color: rgb(9, 157, 141, 0.95);
+    background-color: rgb(9, 157, 141, 0.80);
     font-family: var(--font-titles);
     font-size: 16px;
     color: var(--font-white);
     text-align: center;
 }
 
+
+
 .menu{
+    width: 100%;
     padding: 8px 0; 
     display: flex;
-    background-color: #14d9c4;
+    background-color: rgb(20, 217, 196, 0.80);
     justify-content: space-around;
     font-family: var(--font-titles);
     font-size: 16px;
@@ -53,8 +73,29 @@ a:active {
     color: var(--font-white);
 }
 
+
+
+/*=======================*/
+/*=======================*/
+/*=========MAIN==========*/
+/*=======================*/
+/*=======================*/
+
+.principal-column {
+    text-align: center;
+    margin: 0px 30px;
+}
+
+
 .main-section{
-    width: 100vh;
-    background: url("https://placekitten.com/320/421") no-repeat center;
+    font-weight: 900;
+    font-family: var(--font-text);
+    font-size: 18px;
+    transform: translateY(-40px) ;
+    margin: 0 auto;
+    padding: 14px 15px 16px 15px;
+    background-color: white;
+    width: 90%;
+
 }
 
