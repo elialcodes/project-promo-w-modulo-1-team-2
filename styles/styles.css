@@ -2,6 +2,8 @@
   --font-white: #ffffff;
   --font-black: #000000;
   --font-aqua: #099d8d;
+  --aqua: aqua;
+  --blue-green: #099d8d;
   --font-grey: #54585a;
   --font-titles: 'Rubik', sans-serif;
   --font-text: 'Open Sans', sans-serif;
@@ -38,7 +40,7 @@ font-family: --font-text;
 
 h1 {
   padding: 15px 80px;
-  background-color: rgb(9, 157, 141, 0.8);
+  background-color: rgb(9, 157, 141, 0.95);
   font-family: var(--font-titles);
   font-size: 16px;
   color: var(--font-white);
@@ -61,7 +63,7 @@ a {
 }
 
 a:hover {
-  color: #099d8d;
+  color: var(--blue-green);;
 }
 
 a:active {
@@ -183,6 +185,70 @@ footer {
   color: #54585a;
 
 }
+
+/*=======================*/
+/*=======================*/
+/*==TARJ QUIENES SOMOS===*/
+/*=======================*/
+/*=======================*/
+.quienes-somos h2{
+  font-family: var(--font-titles);
+  font-size: 28px;
+  font-weight: 400;
+  color: var(--blue-green);;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.quienes-somos {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.img-tarjeta{
+  border-radius: 4px;
+  border: solid 5px #c7c7c7;
+}
+
+.tarjeta h3{
+  font-size: 25px;
+  font-weight: 300;
+  color: #000000;
+  margin: 20px 0px;
+}
+
+.tarjeta p{
+  font-size: 18px;
+  font-weight: 300;
+  color: #54585a;
+  line-height: 1.5;
+  width: 80%;
+  margin: 0 auto 20px auto;
+}
+
+
+.rrss{
+  margin-bottom: 45px;
+
+
+}
+.rrss ul{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.rrss ul li a i {
+  color: var(--blue-green);
+}
+
+.filigrana::after {
+  content: "   ·";
+  color: var(--blue-green);
+}
+
+
 
 /*=======================*/
 /*=======================*/
