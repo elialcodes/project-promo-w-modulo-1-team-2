@@ -191,12 +191,8 @@ footer {
 /*==TARJ QUIENES SOMOS===*/
 /*=======================*/
 /*=======================*/
-<<<<<<< Updated upstream
-.quienes-somos h2{
-=======
 
 .quienes-somos h2 {
->>>>>>> Stashed changes
   font-family: var(--font-titles);
   font-size: 28px;
   font-weight: 400;
@@ -215,22 +211,14 @@ footer {
   border: solid 5px #c7c7c7;
 }
 
-<<<<<<< Updated upstream
-.tarjeta h3{
-=======
 .tarjeta h3, .tarjeta-right h3 {
->>>>>>> Stashed changes
   font-size: 25px;
   font-weight: 300;
   color: #000000;
   margin: 20px 0px;
 }
 
-<<<<<<< Updated upstream
-.tarjeta p{
-=======
 .tarjeta p, .tarjeta-right p {
->>>>>>> Stashed changes
   font-size: 18px;
   font-weight: 300;
   color: #54585a;
