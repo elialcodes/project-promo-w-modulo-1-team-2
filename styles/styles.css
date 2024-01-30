@@ -128,6 +128,31 @@ footer {
 .footer img {
   width: 115.9px; /*He puesto un tamaño fijo porque en todas las versiones mantiene un tamaño de 115.9px el logo, si preferís que lo hagamos más responsive y lo agrandemos porcentualmente al figure, lo cambiamos sin problema!*/
 }
+/*=====VICKY-EQUIPO=======*/
+/*=======================*/
+/*=======================*/
+
+#tittle {
+  font-family: var(--font-titles);
+  font-size: 24px;
+  color: #14d9c4;
+}
+
+#lorem {
+  font-family: var(--font-text);
+  font-size: 16px;
+  line-height: 24px;
+  color: #54585a;
+}
+
+#lorem2 {
+  font-family: var(--font-text);
+  font-size: 16px;
+  line-height: 24px;
+  color: #54585a;
+
+}
+
 /*=======================*/
 /*=======================*/
 /*====MEDIA QUERIES======*/
@@ -153,4 +178,46 @@ footer {
 }
 
 @media (min-width: 1200px) {
+}
+
+/*=======================*/
+/*=======================*/
+/*=====VICKY-EQUIPO=======*/
+/*=======================*/
+/*=======================*/
+
+@media (min-width: 1200px) {
+
+  .part-1 {
+    width: 1200px;
+    height: 357px;
+    margin: 0 0 309px;
+    padding: 45px 300px 60px 299px;
+    background-color: var(--font-white);
+  }
+
+  .equipo {
+    width: 1200px;
+    height: 357px;
+    margin: 0 0 309px;
+    padding: 45px 300px 60px 299px;
+    background-color: var(--font-white);
+  }
+
+  #lorem {
+    font-size: 16px;
+    width: 601px;
+    height: 192px;
+    margin: 15px 0 0;
+    opacity: 0.67;
+  }
+  
+  #lorem2 {
+    font-size: 16px;
+    width: 601px;
+    height: 192px;
+    margin: 15px 0 0;
+    opacity: 0.67;
+  }
+
 }
