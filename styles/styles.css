@@ -92,6 +92,44 @@ a:active {
 
 /*=======================*/
 /*=======================*/
+/*========FOOTER=========*/
+/*=======================*/
+/*=======================*/
+
+footer {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-top: var(--font-grey) groove 1px;
+}
+
+.footer span {
+  /*He llamado a los distintos elementos en diferentes líneas de código porque cada uno tenía un margen superior e inferior diferente*/
+  margin: 30px 74px 10px 74px;
+  color: #b8b8b9;
+}
+
+.footer ul {
+  margin: 10px 103px 15px 103px;
+}
+
+.footer a {
+  color: var(
+    --font-grey
+  ); /*Falta añadir estilos de open sans para hacer semibold!!!*/
+  line-height: 20px;
+}
+
+.footer figure {
+  margin: 15px 103px 45px 103px;
+}
+
+.footer img {
+  width: 115.9px; /*He puesto un tamaño fijo porque en todas las versiones mantiene un tamaño de 115.9px el logo, si preferís que lo hagamos más responsive y lo agrandemos porcentualmente al figure, lo cambiamos sin problema!*/
+}
+/*=======================*/
+/*=======================*/
 /*====MEDIA QUERIES======*/
 /*=======================*/
 /*=======================*/
