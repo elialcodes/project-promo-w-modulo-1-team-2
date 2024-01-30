@@ -104,7 +104,7 @@ footer {
   border-top: var(--font-grey) groove 1px;
 }
 
-.footer span {
+.container-items-tablet-desktop {
   /*He llamado a los distintos elementos en diferentes líneas de código porque cada uno tenía un margen superior e inferior diferente*/
   margin: 30px 74px 10px 74px;
   color: #b8b8b9;
@@ -128,6 +128,10 @@ footer {
 .footer img {
   width: 115.9px; /*He puesto un tamaño fijo porque en todas las versiones mantiene un tamaño de 115.9px el logo, si preferís que lo hagamos más responsive y lo agrandemos porcentualmente al figure, lo cambiamos sin problema!*/
 }
+
+.logo-tablet-desktop {
+  display: none;
+}
 /*=======================*/
 /*=======================*/
 /*====MEDIA QUERIES======*/
@@ -149,6 +153,45 @@ footer {
   }
   h1 {
     padding: 15px 0 15px 45px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .footer ul {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0;
+    padding-right: 45px;
+  }
+
+  .container-items-tablet-desktop {
+    width: 50%;
+    margin: 0;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 45px;
+  }
+
+  .logo-mobile {
+    display: none;
+  }
+
+  .logo-tablet-desktop {
+    display: block;
+    margin: 0;
+  }
+
+  .footer figure {
+    margin: 0;
   }
 }
 
