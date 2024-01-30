@@ -1,10 +1,10 @@
 :root {
   --font-white: #ffffff;
   --font-black: #000000;
-  --aqua: aqua;
+  --font-aqua: #099d8d;
   --font-grey: #54585a;
-  --font-titles: "Rubik", sans-serif;
-  --font-text: "Open Sans", sans-serif;
+  --font-titles: 'Rubik', sans-serif;
+  --font-text: 'Open Sans', sans-serif;
 }
 
 body {
@@ -89,7 +89,38 @@ a:active {
   background-color: white;
   width: 90%;
 }
-
+.rombo {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  margin: 0px, auto;
+  display: inline-block;
+  transform: translateY(67%) rotate(-45deg);
+  z-index: 2;
+}
+.fortalezas-debilidades {
+  padding-top: 30px;
+  padding-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: rgb(184, 184, 185, 0.3);
+}
+.fortalezas h2,
+.debilidades h2 {
+  padding: 10px 0px;
+  font-size: 22px;
+  font-family: var(--font-titles);
+  height: 45px;
+  color: var(--font-aqua);
+  text-align: center;
+}
+.fortalezas-debilidades p {
+  font-size: 16px;
+  color: var(--font-grey);
+  text-align: center;
+  line-height: 24px;
+}
 /*=======================*/
 /*=======================*/
 /*========FOOTER=========*/
