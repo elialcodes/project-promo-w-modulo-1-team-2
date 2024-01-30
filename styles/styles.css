@@ -82,7 +82,6 @@ a:active {
 }
 
 .main-section {
-  font-weight: 900;
   font-family: var(--font-text);
   font-size: 18px;
   transform: translateY(-40px);
