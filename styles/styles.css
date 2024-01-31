@@ -78,13 +78,13 @@ a:active {
 
 .principal-column {
   text-align: center;
-  padding: 30px 15px;
+  margin: 0px  30px;
   background-color: #fff;
 }
 
 #tittle {
   width: 100%;
-  margin: 0 99.5px 15px 101.5px;
+  margin: 0 auto;
   font-family: var(--font-titles);
   font-size: 24px;
   font-weight: 500;
@@ -189,6 +189,30 @@ footer {
 .footer img {
   width: 115.9px; /*He puesto un tamaño fijo porque en todas las versiones mantiene un tamaño de 115.9px el logo, si preferís que lo hagamos más responsive y lo agrandemos porcentualmente al figure, lo cambiamos sin problema!*/
 }
+/*=====VICKY-EQUIPO=======*/
+/*=======================*/
+/*=======================*/
+
+#tittle {
+  font-family: var(--font-titles);
+  font-size: 24px;
+  color: #14d9c4;
+}
+
+#lorem {
+  font-family: var(--font-text);
+  font-size: 16px;
+  line-height: 24px;
+  color: #54585a;
+}
+
+#lorem2 {
+  font-family: var(--font-text);
+  font-size: 16px;
+  line-height: 24px;
+  color: #54585a;
+  padding-top: 10px;
+}
 
 /*=======================*/
 /*=======================*/
@@ -282,78 +306,18 @@ footer {
 /*=======================*/
 /*=======================*/
 
-@media (min-width: 768px) and (max-width: 1200px) {
-  .principal-column {
-    /* width: 768px;
-    height: 303px; */
-    margin: 0 0 7px;
-    padding: 45px 45px 30px;
-    background-color: #fff;
-  }
-
-  #tittle {
-  width: 100%;
-  margin: 0 294.3px 15px 295px;
-  font-family: var(--font-titles);
-  font-size: 24px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.88;
-  letter-spacing: normal;
-  text-align: center;
-  color: #099d8d;
-  }
-
-  #lorem {
-  width: 100%;
-  margin: 15px 0 0;
-  opacity: 0.67;
-  font-family: var(--font-titles);
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: center;
-  color: #54585a;
-  }
-
-}
-
-
-
-/* @media (max-width: 1200px) {
-  .part-1 {
-    width: 1200px;
-    height: 357px;
-    margin: 0 0 309px;
-    padding: 45px 300px 60px 299px;
-    background-color: var(--font-white);
-  }
+@media (min-width: 1200px) {
 
   .equipo {
-    width: 1200px;
-    height: 357px;
-    margin: 0 0 309px;
-    padding: 45px 300px 60px 299px;
-    background-color: var(--font-white);
+    margin: 0 auto;
+    width: 55%;
+
+
   }
 
   #lorem {
     font-size: 16px;
-    width: 601px;
-    height: 192px;
     margin: 15px 0 0;
     opacity: 0.67;
   }
-
-  #lorem2 {
-    font-size: 16px;
-    width: 601px;
-    height: 192px;
-    margin: 15px 0 0;
-    opacity: 0.67;
-  }
-} */
+}
