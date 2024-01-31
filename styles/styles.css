@@ -80,6 +80,33 @@ a:active {
   text-align: center;
   margin: 0px 30px;
 }
+#tittle {
+  width: 100%;
+  margin: 0 auto;
+  font-family: var(--font-titles);
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: #099d8d;
+}
+
+#lorem {
+  width: 100%;
+  margin: 15px 0 0;
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #54585a;
+}
 
 .main-section {
   font-family: var(--font-text);
