@@ -219,6 +219,10 @@ footer {
 /*==TARJ QUIENES SOMOS===*/
 /*=======================*/
 /*=======================*/
+<<<<<<< HEAD
+=======
+
+>>>>>>> rama-tarjetas-tablet
 .quienes-somos h2 {
   font-family: var(--font-titles);
   font-size: 28px;
@@ -238,14 +242,22 @@ footer {
   border: solid 5px #c7c7c7;
 }
 
+<<<<<<< HEAD
 .tarjeta h3 {
+=======
+.tarjeta h3, .tarjeta-right h3 {
+>>>>>>> rama-tarjetas-tablet
   font-size: 25px;
   font-weight: 300;
   color: #000000;
   margin: 20px 0px;
 }
 
+<<<<<<< HEAD
 .tarjeta p {
+=======
+.tarjeta p, .tarjeta-right p {
+>>>>>>> rama-tarjetas-tablet
   font-size: 18px;
   font-weight: 300;
   color: #54585a;
@@ -295,6 +307,55 @@ footer {
   h1 {
     padding: 15px 0 15px 45px;
   }
+
+  /*QUIENES SOMOS*/
+  .tarjeta{
+    display: flex;
+  }
+
+  .tarjeta-right p{
+    margin: 0;
+  }
+
+  .info-chica{
+    text-align: left;
+    padding-left: 45px;
+  }
+
+  .info-chica-right{
+    text-align: left;
+    padding-left: 0px;
+  }
+  
+
+  .tarjeta-right{
+    display: flex;
+    flex-direction: row-reverse;
+
+  }
+
+  .tarjeta p, .tarjeta-right p{
+    margin: 0;
+    padding-top: 10px;
+    text-align: left;
+  }
+
+  .tarjeta p, .tarjeta-right p {
+    width: 95%;
+  }
+
+  .tarjeta h3, .tarjeta-right h3{
+    margin: 0;
+    text-align: left;
+  }
+  .rrss{
+    padding-top: 15px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  /*FIN QUIENES SOMOS*/
 }
 
 @media (min-width: 1200px) {
