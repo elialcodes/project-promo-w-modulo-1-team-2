@@ -78,36 +78,7 @@ a:active {
 
 .principal-column {
   text-align: center;
-  margin: 0px  30px;
-  background-color: #fff;
-}
-
-#tittle {
-  width: 100%;
-  margin: 0 auto;
-  font-family: var(--font-titles);
-  font-size: 24px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.88;
-  letter-spacing: normal;
-  text-align: center;
-  color: #099d8d;
-}
-
-#lorem {
-  width: 100%;
-  margin: 15px 0 0;
-  font-family: var(--font-text);
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: center;
-  color: #54585a;
+  margin: 0px 30px;
 }
 
 .main-section {
@@ -165,9 +136,10 @@ footer {
   flex-direction: column;
   text-align: center;
   border-top: var(--font-grey) groove 1px;
+  width: 100%;
 }
 
-.footer span {
+.container-items-tablet-desktop {
   /*He llamado a los distintos elementos en diferentes líneas de código porque cada uno tenía un margen superior e inferior diferente*/
   margin: 30px 74px 10px 74px;
   color: #b8b8b9;
@@ -238,14 +210,16 @@ footer {
   border: solid 5px #c7c7c7;
 }
 
-.tarjeta h3 {
+.tarjeta h3,
+.tarjeta-right h3 {
   font-size: 25px;
   font-weight: 300;
   color: #000000;
   margin: 20px 0px;
 }
 
-.tarjeta p {
+.tarjeta p,
+.tarjeta-right p {
   font-size: 18px;
   font-weight: 300;
   color: #54585a;
@@ -273,6 +247,9 @@ footer {
   color: var(--blue-green);
 }
 
+.logo-tablet-desktop {
+  display: none;
+}
 /*=======================*/
 /*=======================*/
 /*====MEDIA QUERIES======*/
@@ -309,6 +286,94 @@ footer {
     margin: 0px;
     padding-bottom: 45px;
   }
+
+  /*QUIENES SOMOS*/
+  .tarjeta {
+    display: flex;
+  }
+
+  .tarjeta-right p {
+    margin: 0;
+  }
+
+  .info-chica {
+    text-align: left;
+    padding-left: 45px;
+  }
+
+  .info-chica-right {
+    text-align: left;
+    padding-left: 0px;
+  }
+
+  .tarjeta-right {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .tarjeta p,
+  .tarjeta-right p {
+    margin: 0;
+    padding-top: 10px;
+    text-align: left;
+  }
+
+  .tarjeta p,
+  .tarjeta-right p {
+    width: 95%;
+  }
+
+  .tarjeta h3,
+  .tarjeta-right h3 {
+    margin: 0;
+    text-align: left;
+  }
+  .rrss {
+    padding-top: 15px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  /*FIN QUIENES SOMOS*/
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .footer ul {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0;
+    padding-right: 45px;
+  }
+
+  .container-items-tablet-desktop {
+    width: 50%;
+    margin: 0;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 45px;
+  }
+
+  .logo-mobile {
+    display: none;
+  }
+
+  .logo-tablet-desktop {
+    display: block;
+    margin: 0;
+  }
+
+  .footer figure {
+    margin: 0;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -321,12 +386,20 @@ footer {
 /*=======================*/
 
 @media (min-width: 1200px) {
+  .part-1 {
+    width: 1200px;
+    height: 357px;
+    margin: 0 0 309px;
+    padding: 45px 300px 60px 299px;
+    background-color: var(--font-white);
+  }
 
   .equipo {
-    margin: 0 auto;
-    width: 55%;
-
-
+    width: 1200px;
+    height: 357px;
+    margin: 0 0 309px;
+    padding: 45px 300px 60px 299px;
+    background-color: var(--font-white);
   }
 
   #lorem {
