@@ -315,7 +315,141 @@ footer {
     padding-bottom: 45px;
   }
 
-  /*QUIENES SOMOS*/
+  /*INICIO QUIENES SOMOS TABLET*/
+  .tarjeta {
+    display: flex;
+  }
+
+  .tarjeta-right p {
+    margin: 0;
+  }
+
+  .info-chica {
+    text-align: left;
+    padding-left: 45px;
+  }
+
+  .info-chica-right {
+    text-align: left;
+    padding-left: 0px;
+  }
+
+  .tarjeta-right {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .tarjeta p,
+  .tarjeta-right p {
+    margin: 0;
+    padding-top: 10px;
+    text-align: left;
+  }
+
+  .tarjeta p,
+  .tarjeta-right p {
+    width: 95%;
+  }
+
+  .tarjeta h3,
+  .tarjeta-right h3 {
+    margin: 0;
+    text-align: left;
+  }
+  .rrss {
+    padding-top: 15px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+  }
+  /*FIN QUIENES SOMOS TABLET*/
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .footer ul {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0;
+    padding-right: 45px;
+  }
+
+  .container-items-tablet-desktop {
+    width: 50%;
+    margin: 0;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 45px;
+  }
+
+  .logo-mobile {
+    display: none;
+  }
+
+  .logo-tablet-desktop {
+    display: block;
+    margin: 0;
+  }
+
+  .footer figure {
+    margin: 0;
+  }
+}
+
+/*=======================*/
+/*=======================*/
+/*=====VICKY-EQUIPO=======*/
+/*=======================*/
+/*=======================*/
+
+@media (min-width: 1200px) {
+  .principal-column {
+    text-align: center;
+    margin: 0px 138px;
+  }
+  .part-1 {
+    width: 1200px;
+    height: 357px;
+    margin: 0 0 309px;
+    padding: 45px 300px 60px 299px;
+    background-color: var(--font-white);
+  }
+
+  .equipo {
+    width: 1200px;
+    height: 357px;
+    margin: 0 0 309px;
+    padding: 45px 300px 60px 299px;
+    background-color: var(--font-white);
+  }
+
+  #lorem {
+    font-size: 16px;
+    margin: 15px 0 0;
+    opacity: 0.67;
+  }
+  .fortalezas-debilidades {
+    height: 333px;
+    padding: 45px 138px 60px 138px;
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+  }
+  .fortalezas-debilidades p {
+    margin: 0px;
+    padding-bottom: 60px;
+  }
+
+  /* INICIO QUIENES SOMOS DESKTOP*/
+
   .tarjeta {
     display: flex;
   }
@@ -363,91 +497,8 @@ footer {
     justify-content: flex-start;
   }
 
-  /*FIN QUIENES SOMOS*/
-  footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
+  /*FIN QUIENES SOMOS DESKTOP*/
 
-  .footer ul {
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 50%;
-    margin: 0;
-    padding-right: 45px;
-  }
 
-  .container-items-tablet-desktop {
-    width: 50%;
-    margin: 0;
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    padding: 45px;
-  }
 
-  .logo-mobile {
-    display: none;
-  }
-
-  .logo-tablet-desktop {
-    display: block;
-    margin: 0;
-  }
-
-  .footer figure {
-    margin: 0;
-  }
-}
-
-@media (min-width: 1200px) {
-}
-
-/*=======================*/
-/*=======================*/
-/*=====VICKY-EQUIPO=======*/
-/*=======================*/
-/*=======================*/
-
-@media (min-width: 1200px) {
-  .principal-column {
-    text-align: center;
-    margin: 0px 138px;
-  }
-  .part-1 {
-    width: 1200px;
-    height: 357px;
-    margin: 0 0 309px;
-    padding: 45px 300px 60px 299px;
-    background-color: var(--font-white);
-  }
-
-  .equipo {
-    width: 1200px;
-    height: 357px;
-    margin: 0 0 309px;
-    padding: 45px 300px 60px 299px;
-    background-color: var(--font-white);
-  }
-
-  #lorem {
-    font-size: 16px;
-    margin: 15px 0 0;
-    opacity: 0.67;
-  }
-  .fortalezas-debilidades {
-    height: 333px;
-    padding: 45px 138px 60px 138px;
-    display: flex;
-    flex-direction: row;
-    gap: 45px;
-  }
-  .fortalezas-debilidades p {
-    margin: 0px;
-    padding-bottom: 60px;
-  }
 }
