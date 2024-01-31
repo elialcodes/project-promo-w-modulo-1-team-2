@@ -5,8 +5,8 @@
   --aqua: aqua;
   --blue-green: #099d8d;
   --font-grey: #54585a;
-  --font-titles: 'Rubik', sans-serif;
-  --font-text: 'Open Sans', sans-serif;
+  --font-titles: "Rubik", sans-serif;
+  --font-text: "Open Sans", sans-serif;
 }
 
 body {
@@ -178,7 +178,9 @@ footer {
 }
 
 .footer a {
-  color: var(--font-grey); /*Falta añadir estilos de open sans para hacer semibold!!!*/
+  color: var(
+    --font-grey
+  ); /*Falta añadir estilos de open sans para hacer semibold!!!*/
   line-height: 20px;
 }
 
@@ -271,7 +273,7 @@ footer {
 }
 
 .filigrana::after {
-  content: '   ·';
+  content: "   ·";
   color: var(--blue-green);
 }
 
@@ -368,26 +370,31 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
   }
 
   .footer ul {
     text-align: right;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 10px;
     width: 50%;
     margin: 0;
     padding-right: 45px;
+    margin-top: 24px;
+    margin-bottom: 56px;
   }
 
   .container-items-tablet-desktop {
     width: 50%;
     margin: 0;
     margin-top: 30px;
+    margin-bottom: 60px;
     display: flex;
     flex-direction: column;
     align-items: start;
-    padding: 45px;
+    padding-left: 45px;
   }
 
   .logo-mobile {
@@ -401,6 +408,7 @@ footer {
 
   .footer figure {
     margin: 0;
+    padding-top: 15px;
   }
 }
 
@@ -499,6 +507,49 @@ footer {
 
   /*FIN QUIENES SOMOS DESKTOP*/
 
+  /*INICIO FOOTER DESKTOP*/
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 
+  .footer ul {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 50%;
+    margin: 0;
+    padding-right: 138px;
+    margin-top: 24px;
+    margin-bottom: 47px;
+  }
 
+  .container-items-tablet-desktop {
+    width: 50%;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 51px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 138px;
+  }
+
+  .logo-mobile {
+    display: none;
+  }
+
+  .logo-tablet-desktop {
+    display: block;
+    margin: 0;
+  }
+
+  .footer figure {
+    margin: 0;
+    padding-top: 15px;
+  }
 }
