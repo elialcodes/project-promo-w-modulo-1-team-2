@@ -1,10 +1,12 @@
 :root {
   --font-white: #ffffff;
   --font-black: #000000;
+  --font-aqua: #099d8d;
   --aqua: aqua;
+  --blue-green: #099d8d;
   --font-grey: #54585a;
-  --font-titles: "Rubik", sans-serif;
-  --font-text: "Open Sans", sans-serif;
+  --font-titles: 'Rubik', sans-serif;
+  --font-text: 'Open Sans', sans-serif;
 }
 
 body {
@@ -38,7 +40,7 @@ font-family: --font-text;
 
 h1 {
   padding: 15px 80px;
-  background-color: rgb(9, 157, 141, 0.8);
+  background-color: rgb(9, 157, 141, 0.95);
   font-family: var(--font-titles);
   font-size: 16px;
   color: var(--font-white);
@@ -61,7 +63,7 @@ a {
 }
 
 a:hover {
-  color: #099d8d;
+  color: var(--blue-green);
 }
 
 a:active {
@@ -76,11 +78,39 @@ a:active {
 
 .principal-column {
   text-align: center;
-  margin: 0px 30px;
+  padding: 30px 15px;
+  background-color: #fff;
+}
+
+#tittle {
+  width: 100%;
+  margin: 0 99.5px 15px 101.5px;
+  font-family: var(--font-titles);
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: #099d8d;
+}
+
+#lorem {
+  width: 100%;
+  margin: 15px 0 0;
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #54585a;
 }
 
 .main-section {
-  font-weight: 900;
   font-family: var(--font-text);
   font-size: 18px;
   transform: translateY(-40px);
@@ -89,32 +119,134 @@ a:active {
   background-color: white;
   width: 90%;
 }
-
-/*=======================*/
-/*=======================*/
-/*=====VICKY-EQUIPO=======*/
-/*=======================*/
-/*=======================*/
-
-#tittle {
+.rombo {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  margin: auto;
+  display: block;
+  transform: translateY(50%) rotate(-45deg);
+  z-index: 2;
+}
+.fortalezas-debilidades {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: rgb(184, 184, 185, 0.3);
+}
+.fortalezas h2,
+.debilidades h2 {
+  padding: 10px 0px;
+  font-size: 22px;
   font-family: var(--font-titles);
-  font-size: 24px;
-  color: #14d9c4;
+  height: 45px;
+  color: var(--font-aqua);
+  text-align: center;
+}
+.fortalezas-debilidades p {
+  margin: 0px 30px;
+  font-size: 16px;
+  color: var(--font-grey);
+  text-align: center;
+  line-height: 24px;
+}
+/*=======================*/
+/*=======================*/
+/*========FOOTER=========*/
+/*=======================*/
+/*=======================*/
+
+footer {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-top: var(--font-grey) groove 1px;
 }
 
-#lorem {
-  font-family: var(--font-text);
-  font-size: 16px;
-  line-height: 24px;
-  color: #54585a;
+.footer span {
+  /*He llamado a los distintos elementos en diferentes líneas de código porque cada uno tenía un margen superior e inferior diferente*/
+  margin: 30px 74px 10px 74px;
+  color: #b8b8b9;
 }
 
-#lorem2 {
-  font-family: var(--font-text);
-  font-size: 16px;
-  line-height: 24px;
-  color: #54585a;
+.footer ul {
+  margin: 10px 103px 15px 103px;
+}
 
+.footer a {
+  color: var(--font-grey); /*Falta añadir estilos de open sans para hacer semibold!!!*/
+  line-height: 20px;
+}
+
+.footer figure {
+  margin: 15px 103px 45px 103px;
+}
+
+.footer img {
+  width: 115.9px; /*He puesto un tamaño fijo porque en todas las versiones mantiene un tamaño de 115.9px el logo, si preferís que lo hagamos más responsive y lo agrandemos porcentualmente al figure, lo cambiamos sin problema!*/
+}
+
+/*=======================*/
+/*=======================*/
+/*==TARJ QUIENES SOMOS===*/
+/*=======================*/
+/*=======================*/
+.quienes-somos h2 {
+  font-family: var(--font-titles);
+  font-size: 28px;
+  font-weight: 400;
+  color: var(--blue-green);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.quienes-somos {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.img-tarjeta {
+  border-radius: 4px;
+  border: solid 5px #c7c7c7;
+}
+
+.tarjeta h3 {
+  font-size: 25px;
+  font-weight: 300;
+  color: #000000;
+  margin: 20px 0px;
+}
+
+.tarjeta p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #54585a;
+  line-height: 1.5;
+  width: 80%;
+  margin: 0 auto 20px auto;
+}
+
+.rrss {
+  margin-bottom: 45px;
+}
+.rrss ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.rrss ul li a i {
+  color: var(--blue-green);
+}
+
+.filigrana::after {
+  content: '   ·';
+  color: var(--blue-green);
 }
 
 /*=======================*/
@@ -150,8 +282,49 @@ a:active {
 /*=======================*/
 /*=======================*/
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1200px) {
+  .principal-column {
+    /* width: 768px;
+    height: 303px; */
+    margin: 0 0 7px;
+    padding: 45px 45px 30px;
+    background-color: #fff;
+  }
 
+  #tittle {
+  width: 100%;
+  margin: 0 294.3px 15px 295px;
+  font-family: var(--font-titles);
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: #099d8d;
+  }
+
+  #lorem {
+  width: 100%;
+  margin: 15px 0 0;
+  opacity: 0.67;
+  font-family: var(--font-titles);
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #54585a;
+  }
+
+}
+
+
+
+/* @media (max-width: 1200px) {
   .part-1 {
     width: 1200px;
     height: 357px;
@@ -175,7 +348,7 @@ a:active {
     margin: 15px 0 0;
     opacity: 0.67;
   }
-  
+
   #lorem2 {
     font-size: 16px;
     width: 601px;
@@ -183,5 +356,4 @@ a:active {
     margin: 15px 0 0;
     opacity: 0.67;
   }
-
-}
+} */
