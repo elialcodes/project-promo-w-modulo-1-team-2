@@ -138,6 +138,7 @@ a:active {
 .fortalezas h2,
 .debilidades h2 {
   padding: 10px 0px;
+  margin-bottom: 15px;
   font-size: 22px;
   font-family: var(--font-titles);
   height: 45px;
@@ -413,6 +414,10 @@ footer {
 /*=======================*/
 
 @media (min-width: 1200px) {
+  .principal-column {
+    text-align: center;
+    margin: 0px 138px;
+  }
   .part-1 {
     width: 1200px;
     height: 357px;
@@ -433,5 +438,16 @@ footer {
     font-size: 16px;
     margin: 15px 0 0;
     opacity: 0.67;
+  }
+  .fortalezas-debilidades {
+    height: 333px;
+    padding: 45px 138px 60px 138px;
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+  }
+  .fortalezas-debilidades p {
+    margin: 0px;
+    padding-bottom: 60px;
   }
 }
