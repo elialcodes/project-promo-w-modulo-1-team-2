@@ -102,6 +102,7 @@ footer {
   flex-direction: column;
   text-align: center;
   border-top: var(--font-grey) groove 1px;
+  width: 100%;
 }
 
 .container-items-tablet-desktop {
