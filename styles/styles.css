@@ -78,7 +78,36 @@ a:active {
 
 .principal-column {
   text-align: center;
-  margin: 0px 30px;
+  margin: 0px  30px;
+  background-color: #fff;
+}
+
+#tittle {
+  width: 100%;
+  margin: 0 auto;
+  font-family: var(--font-titles);
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: #099d8d;
+}
+
+#lorem {
+  width: 100%;
+  margin: 15px 0 0;
+  font-family: var(--font-text);
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #54585a;
 }
 
 .main-section {
@@ -292,34 +321,16 @@ footer {
 /*=======================*/
 
 @media (min-width: 1200px) {
-  .part-1 {
-    width: 1200px;
-    height: 357px;
-    margin: 0 0 309px;
-    padding: 45px 300px 60px 299px;
-    background-color: var(--font-white);
-  }
 
   .equipo {
-    width: 1200px;
-    height: 357px;
-    margin: 0 0 309px;
-    padding: 45px 300px 60px 299px;
-    background-color: var(--font-white);
+    margin: 0 auto;
+    width: 55%;
+
+
   }
 
   #lorem {
     font-size: 16px;
-    width: 601px;
-    height: 192px;
-    margin: 15px 0 0;
-    opacity: 0.67;
-  }
-
-  #lorem2 {
-    font-size: 16px;
-    width: 601px;
-    height: 192px;
     margin: 15px 0 0;
     opacity: 0.67;
   }
