@@ -1,0 +1,105 @@
+footer {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-top: $font-grey groove 1px;
+    width: 100%;
+      @media (min-width: 768px) and (max-width: 1200px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      @media (min-width: 1200px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+  }
+  
+  .container-items-tablet-desktop {
+    margin: 30px 74px 10px 74px;
+    color: #b8b8b9;
+      @media (min-width: 768px) and (max-width: 1200px) {
+        width: 50%;
+        margin: 0;
+        margin-top: 30px;
+        margin-bottom: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-left: 45px;
+      }
+      @media (min-width: 1200px) {
+        width: 50%;
+        margin: 0;
+        margin-top: 30px;
+        margin-bottom: 51px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-left: 138px;
+
+      }
+  }
+  
+  .footer ul {
+    margin: 10px 103px 15px 103px;
+    @media (min-width: 768px) and (max-width: 1200px) {
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 10px;
+      width: 50%;
+      margin: 0;
+      padding-right: 45px;
+      margin-top: 24px;
+      margin-bottom: 56px;
+    }
+    @media (min-width: 1200px) {
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 10px;
+      width: 50%;
+      margin: 0;
+      padding-right: 138px;
+      margin-top: 24px;
+      margin-bottom: 47px;
+    }
+  }
+  
+  .footer a {
+    color: $font-grey; 
+    line-height: 20px;
+  }
+  
+  .footer figure {
+    margin: 15px 103px 45px 103px;
+      @media (min-width: 768px) {
+        margin: 0;
+        padding-top: 15px;
+      }
+  }
+  
+  .footer img {
+    width: 115.9px;
+  }
+  
+  .logo-tablet-desktop {
+    display: none;
+    @media (min-width: 768px){
+      display: block;
+      margin: 0;
+    }
+  } 
+
+  .logo-mobile {
+    @media (min-width: 768px) {
+      display: none;
+    }
+  }
