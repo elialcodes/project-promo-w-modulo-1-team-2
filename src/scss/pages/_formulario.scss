@@ -49,6 +49,7 @@ label {
   font-size: 14px;
   color: $font-placeholder;
   font-family: $font-text;
+  padding-left: 5px;
 }
 input {
   border: 1px solid $font-placeholder;
@@ -56,6 +57,7 @@ input {
   height: 45px;
   display: block;
   margin-top: 7px;
+  padding-left: 10px;
 }
 .form__inputsdesktop {
   display: flex;
@@ -83,6 +85,7 @@ textarea {
   margin-top: 7px;
   padding-top: 10px;
   width: 100%;
+  padding-left: 10px;
 }
 .form__send-button {
   background-color: $blue-green;
@@ -90,6 +93,7 @@ textarea {
   border-radius: 5px;
   text-align: center;
   font-size: 16px;
+  cursor: pointer;
   @media (min-width: 768px) {
     width: 40%;
     align-self: end;
