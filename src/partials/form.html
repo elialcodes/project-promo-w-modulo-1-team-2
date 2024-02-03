@@ -11,20 +11,22 @@
       >Nombre completo <span>*</span>
       <input type="text" id="completed-name" name="name" placeholder="   Nombre..." required />
     </label>
-    <label for="email"
-      >E-mail <span>*</span>
-      <input
-        type="email"
-        id="email"
-        name="email"
-        placeholder="   nombre.apellidos@mail.com"
-        required
-      />
-    </label>
-    <label for="telephone"
-      >Teléfono
-      <input type="tel" id="telephone" name="telephone" placeholder="   Ej:123456789" />
-    </label>
+    <div class="inputs-desktop">
+      <label class="email" for="email"
+        >E-mail <span>*</span>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="   nombre.apellidos@mail.com"
+          required
+        />
+      </label>
+      <label class="telephone" for="telephone"
+        >Teléfono
+        <input type="tel" id="telephone" name="telephone" placeholder="   Ej:123456789" />
+      </label>
+    </div>
     <label for="messaje"
       >Mensaje <span>*</span>
       <textarea

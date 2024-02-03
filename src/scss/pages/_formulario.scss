@@ -1,11 +1,15 @@
 .contact {
   padding: 30px 15px 60px;
   @media (min-width: 768px) {
-    padding: 30px 160px 60px;
+    padding: 45px 160px 60px 160px;
+  }
+  @media (min-width: 1200px) {
+    padding: 45px 300px 120px 300px;
   }
 }
 .tittle-contact {
   font-size: 24px;
+  line-height: 45px;
   color: $blue-green;
   font-family: $font-titles;
   text-align: center;
@@ -20,6 +24,7 @@
 }
 p {
   font-size: 12px;
+  line-height: 24px;
   color: $font-grey;
   font-family: $font-text;
   margin: 30px 0 60px 0px;
@@ -32,9 +37,8 @@ span {
 form {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
 }
-
 label {
   font-size: 14px;
   color: $font-grey;
@@ -53,10 +57,30 @@ input {
   display: block;
   margin-top: 7px;
 }
+.inputs-desktop {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  @media (min-width: 1200px) {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+  }
+}
+.email {
+  @media (min-width: 1200px) {
+    width: 60%;
+  }
+}
+.telephone {
+  @media (min-width: 1200px) {
+    width: 30%;
+  }
+}
 textarea {
   border: 1px solid $font-placeholder;
   display: block;
-  margin-top: 10px;
+  margin-top: 7px;
   padding-top: 10px;
   width: 100%;
 }
