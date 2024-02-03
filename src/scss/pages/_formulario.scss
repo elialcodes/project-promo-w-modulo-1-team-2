@@ -1,5 +1,8 @@
 .contact {
   padding: 30px 15px 60px;
+  @media (min-width: 768px) {
+    padding: 30px 160px 60px;
+  }
 }
 .tittle-contact {
   font-size: 24px;
@@ -13,17 +16,25 @@
   color: $font-grey;
   font-family: $font-text;
   margin: 15px 0;
+  text-align: center;
 }
 p {
   font-size: 12px;
   color: $font-grey;
   font-family: $font-text;
-  margin: 30px 0 50px 0px;
+  margin: 30px 0 60px 0px;
+  text-align: center;
 }
 span {
   color: $aqua;
   font-size: 14px;
 }
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
 label {
   font-size: 14px;
   color: $font-grey;
@@ -35,21 +46,13 @@ label {
   color: $font-placeholder;
   font-family: $font-text;
 }
-.send-button {
-  background-color: $blue-green;
-  color: $font-white;
-  border-radius: 5px;
-  text-align: center;
-  font-size: 16px;
-}
 input {
   border: 1px solid $font-placeholder;
   width: 100%;
   height: 45px;
   display: block;
-  margin-top: 10px;
+  margin-top: 7px;
 }
-
 textarea {
   border: 1px solid $font-placeholder;
   display: block;
@@ -57,8 +60,15 @@ textarea {
   padding-top: 10px;
   width: 100%;
 }
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+.send-button {
+  background-color: $blue-green;
+  color: $font-white;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  @media (min-width: 768px) {
+    width: 40%;
+    align-self: end;
+    margin-top: 30px;
+  }
 }
