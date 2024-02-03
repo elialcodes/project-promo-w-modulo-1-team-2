@@ -1,1 +1,64 @@
+.contact {
+  padding: 30px 15px 60px;
+}
+.tittle-contact {
+  font-size: 24px;
+  color: $blue-green;
+  font-family: $font-titles;
+  text-align: center;
+}
+.p-main {
+  font-size: 16px;
+  line-height: 24px;
+  color: $font-grey;
+  font-family: $font-text;
+  margin: 15px 0;
+}
+p {
+  font-size: 12px;
+  color: $font-grey;
+  font-family: $font-text;
+  margin: 30px 0 50px 0px;
+}
+span {
+  color: $aqua;
+  font-size: 14px;
+}
+label {
+  font-size: 14px;
+  color: $font-grey;
+  font-family: $font-text;
+  display: block;
+}
+::placeholder {
+  font-size: 14px;
+  color: $font-placeholder;
+  font-family: $font-text;
+}
+.send-button {
+  background-color: $blue-green;
+  color: $font-white;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+}
+input {
+  border: 1px solid $font-placeholder;
+  width: 100%;
+  height: 45px;
+  display: block;
+  margin-top: 10px;
+}
 
+textarea {
+  border: 1px solid $font-placeholder;
+  display: block;
+  margin-top: 10px;
+  padding-top: 10px;
+  width: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
