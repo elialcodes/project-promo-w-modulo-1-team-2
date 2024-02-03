@@ -1,18 +1,18 @@
 <div class="contact">
-  <h2 class="tittle-contact">CONTACTO</h2>
-  <p class="p-main">
+  <h2 class="contact__tittle">CONTACTO</h2>
+  <p class="contact__p">
     Si tienes un proyecto en mente y te gusta lo que hacemos, no dudes en ponerte en contacto con
     nosotras, te atenderemos a la mayor brevedad posible.
   </p>
-  <p class="p-main">Sólo tienes que rellenar este breve formulario:</p>
+  <p class="contact__p">Sólo tienes que rellenar este breve formulario:</p>
   <p>Todos los campos marcados con <span>*</span> son obligatorios.</p>
   <form action="">
     <label for="completed-name"
       >Nombre completo <span>*</span>
       <input type="text" id="completed-name" name="name" placeholder="   Nombre..." required />
     </label>
-    <div class="inputs-desktop">
-      <label class="email" for="email"
+    <div class="form__inputsdesktop">
+      <label class="form__inputsdesktop--email" for="email"
         >E-mail <span>*</span>
         <input
           type="email"
@@ -22,7 +22,7 @@
           required
         />
       </label>
-      <label class="telephone" for="telephone"
+      <label class="form__inputsdesktop--telephone" for="telephone"
         >Teléfono
         <input type="tel" id="telephone" name="telephone" placeholder="   Ej:123456789" />
       </label>
@@ -37,6 +37,6 @@
         rows="5"
       ></textarea>
     </label>
-    <input class="send-button" type="sumbit" value="ENVIAR" />
+    <input class="form__send-button" type="sumbit" value="ENVIAR" />
   </form>
 </div>
