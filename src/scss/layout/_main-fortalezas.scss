@@ -26,7 +26,7 @@
   }
   @media (min-width: 1200px) {
     height: 333px;
-    padding: 45px 138px 60px 138px;
+    padding: 45px 150px 60px 180px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -42,6 +42,11 @@
   color: $font-aqua;
   text-align: center;
 }
+.fortalezas h2 {
+  @media (min-width: 768px) {
+    padding-right: 50px;
+  }
+}
 .fortalezas,
 .debilidades {
   @media (min-width: 768px) {
@@ -50,7 +55,7 @@
 }
 .debilidades {
   @media (min-width: 768px) {
-    padding-left: 60px;
+    padding-left: 50px;
   }
 }
 .fortalezas-debilidades p {
@@ -63,10 +68,12 @@
     margin: 0px;
     padding-bottom: 15px;
     text-align: start;
+    padding-left: 40px;
   }
   @media (min-width: 1200px) {
     margin: 0px;
     padding-bottom: 60px;
     text-align: start;
+    padding-left: 40px;
   }
 }
