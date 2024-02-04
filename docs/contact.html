@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto web grupal</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/52f50b3cdc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/main-f87dbd6b.css">
+  </head>
+
+  <body>
+    <header class="header-contact">
+  <nav class="nav-menu">
+    <h1><a href="index.html">FlexFemmes</a></h1>
+    <ul class="menu">
+      <li><a href="index.html#equipo-id">EQUIPO</a></li>
+      <li><a href="index.html#quienes-somos-id">QUIENES SOMOS</a></li>
+      <li><a href="contact.html">CONTACTO</a></li>
+    </ul>
+  </nav>
+  <div class="hero-contact">
+    <img class="foto-contact1" src="./images/foto-contact1.jpg" alt="imagen" />
+  </div>
+</header>
+
+    <div class="contact">
+  <h2 class="contact__tittle">CONTACTO</h2>
+  <p class="contact__p">
+    Si tienes un proyecto en mente y te gusta lo que hacemos, no dudes en ponerte en contacto con
+    nosotras, te atenderemos a la mayor brevedad posible.
+  </p>
+  <p class="contact__p">Sólo tienes que rellenar este breve formulario:</p>
+  <p class="contact__warning">Todos los campos marcados con <span>*</span> son obligatorios.</p>
+  <form action="https://formspree.io/f/xwkglblo" method="post">
+    <label for="completed-name"
+      >Nombre completo <span>*</span>
+      <input type="text" id="completed-name" name="name" placeholder="Nombre..." required />
+    </label>
+    <div class="form__inputsdesktop">
+      <label class="form__inputsdesktop--email" for="email"
+        >E-mail <span>*</span>
+        <input
+          type="email"
+          id="email"
+          ^[@]{1}[.]{1}$
+          name="email"
+          placeholder="nombre.apellidos@mail.com"
+          required
+        />
+      </label>
+      <label class="form__inputsdesktop--telephone" for="telephone"
+        >Teléfono
+        <input
+          type="tel"
+          id="telephone"
+          pattern="[0-9]{9}"
+          name="telephone"
+          placeholder="Ej:123456789"
+        />
+      </label>
+    </div>
+    <label for="messaje"
+      >Mensaje <span>*</span>
+      <textarea
+        name="messaje"
+        id="messaje"
+        placeholder="¿Qué necesitas?"
+        cols="30"
+        rows="5"
+        required
+      ></textarea>
+    </label>
+    <button class="form__send-button" type="sumbit">ENVIAR</button>
+  </form>
+</div>
+
+    <footer class="footer">
+  <div class="container-items-tablet-desktop">
+    <span>FlexFemmes ©2024</span>
+    <figure class="logo-tablet-desktop">
+      <img src="./images/logo-adalab.png" alt="logo-adalab" />
+    </figure>
+  </div>
+  <ul>
+    <li><a href="#equipo-id">EQUIPO</a></li>
+    <li><a href="#quienes-somos-id">QUIÉNES SOMOS</a></li>
+    <li><a href="#">CONTACTO</a></li>
+  </ul>
+  <figure class="logo-mobile">
+    <img src="./images/logo-adalab.png" alt="logo-adalab" />
+  </figure>
+</footer>
+
+  </body>
+</html>

@@ -1,69 +1,231 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    
-    <link rel="icon" href="./images/favicon.png" />
-    <link rel="stylesheet" href="./assets/main-62015576.css">
-  </head>
 
-  <body>
-    <div class="page">
-      <header class="page__header">
-  <img src="./images/logo-adalab.png" alt="Adalab">
-  <h1>Bienvenidos a Adalab</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyecto web grupal</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&family=Rubik:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/52f50b3cdc.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/main-f87dbd6b.css">
+</head>
+
+<body>
+  <header>
+  <nav class="nav-menu">
+    <h1><a href="index.html">FlexFemmes</a></h1>
+    <ul class="menu">
+      <li><a href="index.html#equipo-id">EQUIPO</a></li>
+      <li><a href="index.html#quienes-somos-id">QUIENES SOMOS</a></li>
+      <li><a href="contact.html">CONTACTO</a></li>
+    </ul>
+  </nav>
+  <div class="hero">
+    <img class="header" src="./images/header.jpg" alt="imagen" />
+  </div>
 </header>
 
-      <main class="page__main">
-  <h2>Este es el starter kit de Adalab</h2>
-  <p>Lo usamos para aprender:</p>
-  <ul class="main__list">
-    <li>Sass</li>
-    <li>HTML partials</li>
-    <li>Gulp</li>
-    <li>y muchas cosas más</li>
-  </ul>
-  <p>Si quieres saber cúales son las rutas correctas para:</p>
-  <ul class="main__list">
-    <li>
-      una <code class="code">&lt;img /&gt;</code> mira el fichero
-      <code class="code">./src/html/partials/header.html</code>.
-    </li>
-    <li>
-      y para un <code class="code">background-image</code> mira el fichero
-      <code class="code">./src/html/scss/layout/_page.scss</code>.
-    </li>
-  </ul>
+  <main>
+  <section class="main-section">
   <p>
-    Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-    <code class="code">./src/html/index.html</code> y
-    <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-    enlaces:
+    "El mejor proyecto es aquel que se hace en equipo. Encuentra la idea creativa y desarróllala".
   </p>
-  <ul class="main__list">
-    <li>
-      <a class="link__adalab" href="https://adalab.es">Adalab</a>
+</section>
 
-    </li>
-    <li>
-      <a class="{=$aClass}" href="./more-info.html">Más info del starter kit</a>
+<div class="principal-column">
+  <section class="equipo" id="equipo-id">
+    <h2 id="tittle">EQUIPO</h2>
+    <p id="lorem">
+      ¡Hola! Somos un equipo dinámico compuesto por mujeres apasionadas por el mundo de la
+      programación que buscan un nuevo rumbo profesional.
+      <br />
+      Os presentamos nuestra primera creación conjunta: una página web donde podréis conocer a fondo
+      todo lo que podemos ofreceros. ¡Bienvenides!
+    </p>
+  </section>
+</div>
 
-    </li>
-  </ul>
+  <div class="rombo"></div>
+<div class="fortalezas-debilidades">
+  <div class="fortalezas">
+    <h2>Fortalezas</h2>
+    <p>
+      🔹Creatividad a la hora de plantear soluciones. <br />
+      🔹Resiliencia ante los imprevistos y bloqueos. <br />
+      🔹Flexibilidad para adaptarnos al equipo. <br />
+      🔹Resolutivas a la hora de afrontar problemas.
+    </p>
+  </div>
+  <div class="debilidades">
+    <h2>Debilidades</h2>
+    <p>
+      🔹Limitación en el uso de las herramientas. <br />
+      🔹Recursos de ayuda limitados por falta de experiencia. <br />
+      🔹Falta de aproximación desde la perspectiva UX/UI. <br />
+      🔹Trayectoria profesional que limita la aproximación técnica.
+    </p>
+  </div>
+</div>
+
+  <div class="principal-column">
+  <section id="quienes-somos-id" class="quienes-somos">
+    <h2>QUIÉNES SOMOS</h2>
+    <div class="tarjeta">
+      <div class="foto-chica">
+        <img class="img-tarjeta" src="./images/noe-abad.jpg" alt="Foto Noelia Abascal" />
+      </div>
+      <div class="info-chica">
+        <h3>Noelia Abascal</h3>
+        <p>
+          👋Vengo de Santander y, tras más de 20 años especializada en la
+          atención al cliente, he decidido dar un giro a mi vida a través del
+          mundo de la Programación Web, inspirada por la creatividad de este
+          mundo. Soy madre de dos hijos adolescentes, así que el cambio y la
+          rapidez son parte del ADN que traigo a esta nueva etapa profesional.
+        </p>
+        <div class="rrss">
+          <ul>
+            <li class="filigrana">
+              <a href="https://www.instagram.com/nabascalc/#" target="_blank"><i
+                  class="fa-brands fa-square-instagram"></i></a>
+            </li>
+            <li class="filigrana">
+              <a href="https://www.linkedin.com/in/noelia-abascal-cabrera-2319a92aa/" target="_blank"><i
+                  class="fa-brands fa-linkedin-in"></i></a>
+            </li>
+            <li class="filigrana">
+              <a href="https://github.com/elialcodes" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
+            </li>
+            <li>
+              <a href="mailto:abascalcabreran@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="tarjeta-right">
+      <div class="foto-chica">
+        <img class="img-tarjeta" src="./images/vicky-gonzalez.jpg" alt="Foto Victoria González" />
+      </div>
+      <div class="info-chica-right">
+        <h3>Victoria Gonzalez</h3>
+        <p>
+          👋Con mi corazón entre Venezuela y Madrid, he decidido dar un cambio a
+          mi vida adentrándome en el universo de la Programación Web. Traigo
+          todo el aprendizaje de mis estudios en Diseño Gráfico mezclados con
+          una gran cantidad de entusiasmo para terminar de dar el empujón que
+          busco en esta nueva etapa.
+        </p>
+        <div class="rrss">
+          <ul>
+            <li class="filigrana">
+              <a href="https://twitter.com/victoriaggz_" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li class="filigrana">
+              <a href="https://www.instagram.com/victoriagz_/" target="_blank"><i
+                  class="fa-brands fa-square-instagram"></i></a>
+            </li>
+            <li class="filigrana">
+              <a href="https://github.com/victoriagz" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
+            </li>
+            <li>
+              <a href="mailto:victoriagabrielagonzalez123@hotmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="tarjeta">
+      <div class="foto-chica">
+        <img class="img-tarjeta" src="./images/maria-lopez.jpg" alt="Foto María López" />
+      </div>
+      <div>
+        <div class="info-chica">
+          <h3>María López</h3>
+          <p>
+            👋¡Hola desde Cuenca! Tras mi experiencia como Trabajadora Social en
+            el ámbito de la Discapacidad y unos pequeños pasos por el mundo del
+            Diseño Gráfico, he decidido comenzar esta nueva aventura en el mundo
+            de la Programación Web. Mi objetivo es asentar las bases necesarias
+            para especializarme en el ámbito de la Accesibilidad.
+          </p>
+          <div class="rrss">
+            <ul>
+              <li class="filigrana">
+                <a href="https://twitter.com/_emedenada" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li class="filigrana">
+                <a href="https://www.linkedin.com/in/mar%C3%ADa-l%C3%B3pez-herr%C3%A1iz-2a7118104" target="_blank"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+              </li>
+              <li class="filigrana">
+                <a href="https://github.com/mloherr" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
+              </li>
+              <li>
+                <a href="mailto:herraizmaria08@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tarjeta-right">
+      <div class="foto-chica">
+        <img class="img-tarjeta" src="./images/noe-ariza.jpg" alt="Foto Noelia Ariza" />
+      </div>
+      <div class="info-chica-right">
+        <h3>Noelia Ariza</h3>
+        <p>
+          👋¡Saludos desde Barcelona! Mi experiencia como freelance en el ámbito
+          de la publicidad me ha convertido en una auténtica todoterreno. Aunque
+          manejo HTML, CSS y jQuery, he decido especializarme de forma más
+          específica en el ámbito del Frontend, ya que siempre me ha fascinado
+          la creación de interacciones, y el contacto entre cliente y web.
+        </p>
+        <div class="rrss">
+          <ul>
+            <li class="filigrana">
+              <a href="https://twitter.com/noeliaariza" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li class="filigrana">
+              <a href="https://www.linkedin.com/in/noeliaariza/" target="_blank"><i
+                  class="fa-brands fa-linkedin-in"></i></a>
+            </li>
+            <li class="filigrana">
+              <a href="https://github.com/noeliaaariza" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
+            </li>
+            <li>
+              <a href="mailto:noelia.ariza@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
 </main>
-
-      <footer class="page__footer">
-  <small>
-    &copy; Todos los derechos reservados
-    <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-  </small>
+  <footer class="footer">
+  <div class="container-items-tablet-desktop">
+    <span>FlexFemmes ©2024</span>
+    <figure class="logo-tablet-desktop">
+      <img src="./images/logo-adalab.png" alt="logo-adalab" />
+    </figure>
+  </div>
+  <ul>
+    <li><a href="#equipo-id">EQUIPO</a></li>
+    <li><a href="#quienes-somos-id">QUIÉNES SOMOS</a></li>
+    <li><a href="#">CONTACTO</a></li>
+  </ul>
+  <figure class="logo-mobile">
+    <img src="./images/logo-adalab.png" alt="logo-adalab" />
+  </figure>
 </footer>
 
-    </div>
-    <script src="./js/main.js"></script>
-  </body>
+</body>
+
 </html>
