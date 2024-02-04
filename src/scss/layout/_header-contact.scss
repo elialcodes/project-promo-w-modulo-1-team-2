@@ -1,0 +1,19 @@
+.header-contact {
+  width: 100%;
+  object-fit: cover;
+}
+.hero-contact {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  @media (min-width: 768px) {
+    height: 400px;
+  }
+  @media (min-width: 1200px) {
+    height: 500px;
+  }
+}
+.foto-contact1 {
+  width: 100%;
+  overflow: hidden;
+}
