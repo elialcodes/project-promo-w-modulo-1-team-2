@@ -46,8 +46,17 @@
     transform: translateY(-40px);
     margin: 0 auto;
     padding: 14px 15px 16px 15px;
-    background-color: white;
+    background-color: rgb(255, 255, 255, 1);
     width: 90%;
+      @media (min-width: 1200px) {
+        width: 50%;
+        transform: translateY(-80px);
+        padding: 5px 15px 16px 20px;
+        background-color: rgb(255, 255, 255, 0.8);
+        margin-left: 20px;
+
+
+      }
   }
   
 
@@ -56,6 +65,9 @@
     font-size: 18px;
     color: $font-black;
     font-weight: strong;
+    @media (min-width: 1200px) {
+      text-align: left;
+    }
 
   }
   #tittle {

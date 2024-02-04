@@ -1,7 +1,7 @@
 /*:root {
   --font-white: #ffffff;
   --font-black: #000000;
-  --font-aqua: #099d8d;
+  --blue-green: #099d8d;
   --aqua: aqua;
   --blue-green: #099d8d;
   --font-grey: #54585a;
@@ -151,7 +151,7 @@ a:active {
   font-size: 22px;
   font-family: var(--font-titles);
   height: 45px;
-  color: var(--font-aqua);
+  color: var(--blue-green);
   text-align: center;
 }
 .fortalezas-debilidades p {
