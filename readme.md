@@ -1,125 +1,111 @@
-![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
+<h1 align="left">Primer proyecto grupal</h1>
 
-# Adalab web starter kit
+###
 
-Ahoy! Este es nuestro Starter Kit creado en **node y vite**. ¿Y qué es un Starter kit? Pues es una **plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas**.
+<p align="left">Hola! Este es nuestro primer ejercicio grupal en Adalab. El trabajo ha consistido en crear una pequeña landing de presentación de las integrantes del equipo, junto con una segunda página que contiene un formulario de contacto. Todo ha sido maquetado de forma responsive, de manera que la visualización de las páginas es apta para versiones desktop, tablet y mobile.</p>
 
-Este Kit incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más. El Kit nos ayuda a trabajar más cómodamente, nos automatiza tareas.
+###
 
-En el Kit hay 3 tipos de ficheros y carpetas:
+<h2 align="left">Technologies</h2>
 
-- Los ficheros que están sueltos en la raíz del repositorio, como vite.config.js, package.json... Son la configuración del proyecto y no necesitamos modificarlos (excepto este README.md, para describir tu proyecto).
-- La carpeta `src/`: son los ficheros de nuestra página web, como HTML, CSS, JS...
-- La carpeta `public/`, que tiene fichero estáticos como imágenes, fuentes, favicon, librerías de JavaScript antiguas (jQuery, ...)
-- Y la carpeta `docs/`, que es generada automáticamente cuando arrancamos el proyecto. El Kit lee los ficheros que hay dentro de `src/` y `public/`, los procesa y los genera dentro de `public/` y `docs/`.
+###
 
-## Guía de inicio rápido
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
+</div>
 
-> **NOTA:** Necesitas tener instalado [Node JS](https://nodejs.org/) con una versión superior a la 14 para trabajar con este Starter Kit:
+###
 
-### Pasos a seguir cada vez que queremos arrancar un proyecto desde cero:
+<h2 align="left">About us</h2>
 
-1. **Crea tu propio repositorio.**
-1. Descarga este **Starter kit desde GitHub**.
-   - No recomendamos que clones este repo ya que no podrás añadir commits.
-1. **Copia todos los ficheros** de este Starter kit en la carpeta raíz de tu repositorio.
-   - Recuerda que debes copiar **también los ficheros ocultos** que comienzan por un punto.
-   - Si has decidido clonar este repo, no debes copiar la carpeta `.git`. Si lo haces estarás machacando tu propio repositorio.
-1. **Abre una terminal** en la carpeta raíz de tu repositorio.
-1. **Instala las dependencias** locales ejecutando en la terminal el comando:
+###
 
-```bash
-npm install
-```
+<div align="left">
+  <img height="150" src="https://i.ibb.co/Mfv6CQm/maria-lopez.jpg"  />
+</div>
 
-### Pasos para arrancar el proyecto:
+###
 
-Una vez hemos instalado las dependencias, vamos a arrancar el proyecto. **El proyecto hay que arrancarlo cada vez que te pongas a programar.** Para ello ejecuta el comando:
+<h3 align="left">María López</h3>
 
-```bash
-npm run dev
-```
+###
 
-Este comando:
+<p align="left">¡Hola desde Cuenca! Tras mi experiencia como Trabajadora Social en el ámbito de la<br>Discapacidad y unos pequeños pasos por el mundo del Diseño Gráfico, he decidido<br>comenzar esta nueva aventura en el mundo de la Programación Web. Mi objetivo es<br>asentar las bases necesarias para especializarme en el ámbito de la Accesibilidad.</p>
 
-- **Abre una ventana de Chrome y muestra tu página web**, al igual que hace el plugin de VS Code Live Server (Go live).
-- También **observa** todos los ficheros que hay dentro de la carpeta `src/`, para que cada vez que modifiques un fichero **refresca tu página en Chrome**.
-- También **procesa los ficheros** HTML, SASS / CSS y JS. Por ejemplo:
-   - Convierte los ficheros SASS en CSS.
-   - Combina los diferentes ficheros de HTML y los agrupa en uno o varios ficheros HTML.
+###
 
-Después de ejecutar `npm run dev` ya puedes empezar a editar todos los ficheros que están dentro de la carpeta `src/` y programar cómodamente.
+<div align="left">
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  />
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
+</div>
 
-### Pasos para publicar el proyecto en GitHub Pages:
+###
 
-Para generar tu página para producción ejecuta el comando:
+<div align="left">
+  <img height="150" src="https://i.ibb.co/GC2fbdp/vicky-gonzalez.jpg"  />
+</div>
 
-```bash
-npm run build
-```
+###
 
-Y a continuación:
+<h3 align="left">Victoria González</h3>
 
-1. Sube a tu repo la carpeta `docs/` que se te acaba de generar.
-1. Entra en la pestaña `settings` de tu repo.
-1. Y en el apartado de GitHub Pages activa la opción **master branch /docs folder**.
-1. Y ya estaría!!!
+###
 
-Además, los comandos:
+<p align="left">Con mi corazón entre Venezuela y Madrid, he decidido dar un cambio a mi vida adentrándome en el universo de la Programación Web. Traigo todo el aprendizaje de mis estudios en Diseño Gráfico mezclados con una gran cantidad de entusiasmo para terminar de dar el empujón que busco en esta nueva etapa.</p>
 
-```bash
-npm run push-docs
-```
-o
+###
 
-```bash
-npm run deploy
-```
+<div align="left">
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  />
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
+</div>
 
-son un atajo que nos genera la versión de producción y hace push de la carpeta `docs/` del tirón. Te recomendamos ver el fichero `package.json` para aprender cómo funciona.
-<!--
-## Flujo de archivos con Gulp
+###
 
-Estas tareas de Gulp producen el siguiente flujo de archivos:
+<div align="left">
+  <img height="150" src="https://i.ibb.co/GW6Ty84/noe-abad.jpg"  />
+</div>
 
-![Gulp flow](./gulp-flow.png)
+###
 
-## `gulpfile.js` y `config.json`
+<h3 align="left">Noelia Abascal</h3>
 
-Nuestro **gulpfile.js** usa el fichero `config.json` de configuración con las rutas de los archivos a generar / observar.
+###
 
-De esta manera separarmos las acciones que están en `gulpfile.js` de la configuración de las acciones que están en `config.json`.
--->
-## Estructura de carpetas
+<p align="left">Vengo de Santander y, tras más de 20 años especializada en la atención al cliente, he<br>decidido dar un giro a mi vida a través del mundo de la Programación Web, inspirada<br>por la creatividad de este mundo. Soy madre de dos hijos adolescentes, así que el<br>cambio y la rapidez son parte del ADN que traigo a esta nueva etapa profesional.</p>
 
-La estructura de carpetas tiene esta pinta:
+###
 
-```
-src
- ├─ api // los ficheros de esta carpeta se copian en public/api/
- |  └─ data.json
- ├─ images
- |  └─ logo.jpg
- ├─ js // los ficheros de esta carpeta se concatenan en el fichero main.js y este se guarda en public/main.js
- |  ├─ main.js
- |  └─ events.js
- ├─ scss
- |  ├─ components
- |  ├─ core
- |  ├─ layout
- |  └─ pages
- └─ html
-    └─ partials
-```
+<div align="left">
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  />
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
+</div>
 
-> **NOTA:** Los partials de HTML y SASS del proyecto son orientativos. Te recomendamos usar los que quieras, y borrar los que no uses.
-<!--
-## Vídeotutoriales del Starter kit
+###
 
-- [Qué es, trabajar con la versión de desarrollo y rutas relativas](https://www.youtube.com/watch?v=XwvhXvBijos)
-- [Migración de un proyecto, trabajar con la versión de producción y GitHub Pages](https://www.youtube.com/watch?v=qqGClcgt9Uc)
-- [Motor de plantillas](https://www.youtube.com/watch?v=4GwXOJ045Zg)
--->
-## Falta algo?
+<div align="left">
+  <img height="150" src="https://i.ibb.co/smRN62k/noe-ariza.jpg"  />
+</div>
 
-Echas de menos que el kit haga algo en concreto? Pidelo sin problema a través de las issues o si te animas a mejorarlo mándanos un PR :)
+###
+
+<h3 align="left">Noelia Ariza</h3>
+
+###
+
+<p align="left">¡Saludos desde Barcelona! Mi experiencia como freelance en el ámbito de la publicidad<br>me ha convertido en una auténtica todoterreno. Aunque manejo HTML, CSS y jQuery,<br>he decido especializarme de forma más específica en el ámbito del Frontend, ya que<br>siempre me ha fascinado la creación de interacciones, y el contacto entre cliente y web.</p>
+
+###
+
+<div align="left">
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  />
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
+</div>
+
+###
