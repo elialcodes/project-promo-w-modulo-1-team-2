@@ -43,8 +43,6 @@
   }
   
   .main-section {
-    font-family: $font-text;
-    font-size: 18px;
     transform: translateY(-40px);
     margin: 0 auto;
     padding: 14px 15px 16px 15px;
@@ -52,6 +50,14 @@
     width: 90%;
   }
   
+
+  .main-section p {
+    font-family: $font-text;
+    font-size: 18px;
+    color: $font-black;
+    font-weight: strong;
+
+  }
   #tittle {
     font-family: $font-titles;
     font-size: 24px;
