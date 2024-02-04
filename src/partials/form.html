@@ -25,7 +25,13 @@
       </label>
       <label class="form__inputsdesktop--telephone" for="telephone"
         >Teléfono
-        <input type="tel" id="telephone" name="telephone" placeholder="Ej:123456789" />
+        <input
+          type="tel"
+          id="telephone"
+          pattern="[0-9]{9}"
+          name="telephone"
+          placeholder="Ej:123456789"
+        />
       </label>
     </div>
     <label for="messaje"
