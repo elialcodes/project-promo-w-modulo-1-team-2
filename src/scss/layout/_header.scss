@@ -1,13 +1,18 @@
 .hero {
-  width: 100%;
+  height: 421px;
+  overflow: hidden;
 }
 
-.gato {
-  height: 421px;
+.header {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 
   @media (min-width: 768px) {
+    //height:100%;
+    //width: 100%;
     height: 550px;
+
   }
 }
 
