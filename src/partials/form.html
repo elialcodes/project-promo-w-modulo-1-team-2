@@ -6,7 +6,7 @@
   </p>
   <p class="contact__p">Sólo tienes que rellenar este breve formulario:</p>
   <p>Todos los campos marcados con <span>*</span> son obligatorios.</p>
-  <form action="https://formspree.io/abascalcabreran@gmail.com" method="post">
+  <form action="https://formspree.io/f/xwkglblo" method="post">
     <label for="completed-name"
       >Nombre completo <span>*</span>
       <input type="text" id="completed-name" name="name" placeholder="Nombre..." required />
@@ -17,6 +17,7 @@
         <input
           type="email"
           id="email"
+          ^[@]{1}[.]{1}$
           name="email"
           placeholder="nombre.apellidos@mail.com"
           required
@@ -35,8 +36,9 @@
         placeholder="¿Qué necesitas?"
         cols="30"
         rows="5"
+        required
       ></textarea>
     </label>
-    <input class="form__send-button" type="sumbit" value="ENVIAR" />
+    <button class="form__send-button" type="sumbit">ENVIAR</button>
   </form>
 </div>
