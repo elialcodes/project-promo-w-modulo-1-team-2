@@ -11,6 +11,11 @@
   .quienes-somos {
     margin-top: 30px;
     width: 100%;
+    scroll-margin-top: 110px;
+
+    @media (min-width: 768px) {
+      scroll-margin-top: 80px;
+    }
   }
   
   .img-tarjeta {

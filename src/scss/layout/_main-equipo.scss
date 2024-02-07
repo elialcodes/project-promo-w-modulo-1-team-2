@@ -1,6 +1,7 @@
 .principal-column {
   text-align: center;
   margin: 0px 30px;
+  
   @media (min-width: 1200px) {
     text-align: center;
     margin: 0px 138px;
@@ -72,4 +73,12 @@
   font-family: $font-titles;
   font-size: 24px;
   color: #14d9c4;
+}
+
+.equipo {
+  scroll-margin-top: 110px;
+
+  @media (min-width: 768px) {
+    scroll-margin-top: 80px;
+  }
 }
